@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+import { ${1:Object}Actions } from '../actions/${2:object}.actions';
+import {I${1:Object}} from '../models/${2:object}.model';
+
+export function ${2:object}Reducer(state: I${1:Object},
+action: ${1:Object}Actions.All): I${1:Object}  {
+
+  switch (action.type) {
+
+    case ${1:Object}Actions.${3:FIRST_ACTION}: {
+      return {...state, param_to_change: value};
+    }
+
+    case ${1:Object}Actions.${4:SECOND_ACTION}: {
+      return {...state, param_to_change: action.payload};
+    }
+
+    default:
+      return state;
+  }
+}
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>red</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ts</scope>
+</snippet>

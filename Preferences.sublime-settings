@@ -1,0 +1,46 @@
+{
+	"bootstrapped": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"debug": true,
+	"downloader_precedence":
+	{
+		"linux":
+		[
+			"curl",
+			"urllib",
+			"wget"
+		],
+		"osx":
+		[
+			"curl",
+			"urllib"
+		],
+		"windows":
+		[
+			"wininet"
+		]
+	},
+	"draw_white_space": "all",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"installed_packages":
+	[
+		"Package Control"
+	],
+	"material_theme_accent_cyan": true,
+	"material_theme_accent_scrollbars": true,
+	"material_theme_bold_tab": true,
+	"material_theme_bright_scrollbars": true,
+	"material_theme_contrast_mode": true,
+	"material_theme_panel_separator": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_separator": true,
+	"material_theme_titlebar": true,
+	"tab_size": 2,
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"translate_tabs_to_spaces": true
+}

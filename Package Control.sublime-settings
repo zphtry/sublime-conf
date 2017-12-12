@@ -1,0 +1,42 @@
+{
+	"bootstrapped": true,
+	"debug": true,
+	"downloader_precedence":
+	{
+		"linux":
+		[
+			"curl",
+			"urllib",
+			"wget"
+		],
+		"osx":
+		[
+			"curl",
+			"urllib"
+		],
+		"windows":
+		[
+			"wininet"
+		]
+	},
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Angular 2 Snippets (John Papa)",
+		"Angular CLI",
+		"ANSIescape",
+		"Emmet",
+		"Go To Definition",
+		"HTML-CSS-JS Prettify",
+		"ImportHelper",
+		"LESS",
+		"Markdown Preview",
+		"Material Theme",
+		"Ngx HTML",
+		"Package Control",
+		"TypeScript"
+	]
+}

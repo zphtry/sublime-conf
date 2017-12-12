@@ -1,0 +1,32 @@
+<snippet>
+  <content><![CDATA[
+import {Action} from '@ngrx/store';
+//import { I${0:Object} } from '../models/object.model
+
+export namespace ${0:Object}Actions {
+
+  export const ${1:FIRST_ACTION} = '${2:FirstAction}';
+  export const ${3:SECOND_ACTION} = '${4:SecondAction}';
+
+  export class ${2:FirstAction} implements Action {
+
+  //  constructor(public payload: type) {}
+      readonly type = ${1:FIRST_ACTION};
+  }
+
+  export class ${4:SecondAction} implements Action {
+
+  //  constructor(public payload: type) {}
+      readonly type = ${3:SECOND_ACTION};
+  }
+
+  export type All
+      = ${2:FirstAction}
+      | ${4:SecondAction};
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>act</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ts</scope>
+</snippet>
