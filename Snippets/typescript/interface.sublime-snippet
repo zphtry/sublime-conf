@@ -1,7 +1,8 @@
 <snippet>
   <content><![CDATA[
-export interface I${1:Object} {
-  ${0:}
+export interface I${1:Name}
+{
+  ${2:field}: ${0:type};
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
