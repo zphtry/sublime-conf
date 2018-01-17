@@ -21,6 +21,7 @@
 	},
 	"in_process_packages":
 	[
+		"Ngx HTML"
 	],
 	"installed_packages":
 	[
@@ -37,6 +38,7 @@
 		"Material Theme",
 		"Ngx HTML",
 		"Package Control",
+		"Sass",
 		"TypeScript"
 	]
 }
