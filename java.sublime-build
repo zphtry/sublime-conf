@@ -1,0 +1,3 @@
+{
+  "shell_cmd": "javac main.java && java Main"
+}

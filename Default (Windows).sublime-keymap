@@ -1,0 +1,15 @@
+[
+	{ "keys": ["ctrl+d"], "command": "duplicate_line" },	
+	{ "keys": ["ctrl+q"], "command": "htmlprettify" },	
+  { "keys": ["f5"], "command": "build" },
+  { "keys": ["ctrl+e"], "command": "insert_import" },
+  {
+    "keys": ["ctrl+r"],
+    "command": "show_panel",
+    "args":
+    {
+      "panel": "replace",
+      "reverse": false
+    } 
+  },
+]
