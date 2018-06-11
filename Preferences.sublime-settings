@@ -1,6 +1,6 @@
 {
 	"bootstrapped": true,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"debug": true,
 	"downloader_precedence":
 	{
@@ -21,10 +21,9 @@
 		]
 	},
 	"draw_white_space": "all",
-	"font_size": 11,
+	"font_size": 10,
 	"ignored_packages":
 	[
-		"Ngx HTML",
 		"Vintage"
 	],
 	"installed_packages":
@@ -42,6 +41,6 @@
 	"material_theme_tabs_separator": true,
 	"material_theme_titlebar": true,
 	"tab_size": 2,
-	"theme": "Material-Theme-Darker.sublime-theme",
+	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true
 }

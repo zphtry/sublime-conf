@@ -21,7 +21,6 @@
 	},
 	"in_process_packages":
 	[
-		"Ngx HTML"
 	],
 	"installed_packages":
 	[
@@ -29,12 +28,13 @@
 		"Angular 2 Snippets (John Papa)",
 		"Angular CLI",
 		"ANSIescape",
+		"arduino-cli",
 		"Emmet",
 		"Go To Definition",
 		"HTML-CSS-JS Prettify",
 		"ImportHelper",
 		"LESS",
-		"Markdown Preview",
+		"MarkdownPreview",
 		"Material Theme",
 		"Ngx HTML",
 		"Package Control",
